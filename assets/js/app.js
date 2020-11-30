@@ -1,4 +1,4 @@
-// Data Journalism - D3
+// D3Times
 
 // Code for Chart is Wrapped Inside a Function That Automatically Resizes the Chart
 function makeResponsive() {
