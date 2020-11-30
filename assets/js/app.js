@@ -7,11 +7,11 @@ function makeResponsive() {
   var svgArea = d3.select("body").select("svg");
 
   // Height and Width Using d3 function for page responsiveness
-  
+
   var svgWidth = parseInt(d3.select("#scatter").style("Width"));
   var svgHeight = svgWidth - svgWidth / 3.9 // Ratio for Height and Width of svg tag
 
-  // Clear SVG is Not Empty
+  // Clear SVG if Not Empty
   if (!svgArea.empty()) {
     svgArea.remove();
   }
