@@ -166,7 +166,7 @@ function makeResponsive() {
   d3.csv("assets/data/data.csv")
     .then(function (acsData) {
 
-      // Format/Parse the Data (Cast as Numbers)
+      // Format or Parse the Data (Cast as Numbers)
       acsData.forEach(function (data) {
         data.poverty = +data.poverty;
         data.age = +data.age;
